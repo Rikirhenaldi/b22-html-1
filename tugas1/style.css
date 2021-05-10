@@ -1,0 +1,105 @@
+div.container{
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 600px;
+    background-color: #4F1A6C;
+    box-sizing: border-box;
+    padding: 10px 60px 10px;
+    border-radius: 80px;
+}
+.nama-barang{
+    background-color: #7c29aa;
+    width: 420px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    justify-content: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.nama-barang h1{
+    color: white;
+    padding-top: 10px;
+}
+.nama-barang p{
+    color: white;
+    padding-bottom: 10px;
+}
+.harga{
+    background-color: #7c29aa;
+    width: 420px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    justify-content: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.harga h2{
+    color: white;
+    padding-top: 10px;
+}
+.harga button{
+    color: white;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(230, 18, 230);
+    font-size: large;
+}
+.papanCatur{
+    background-color: darkgray;
+    border: 10px solid rgb(164,116,73);
+    box-sizing: content-box;
+    width: 400px;
+    margin: 20, 30;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.8);
+    
+}
+.papanCatur .baris-satu .papan:hover{
+    background-color: #4F1A6C;
+}
+.papanCatur .baris-dua .papan:hover{
+    background-color: salmon;
+}
+.papanCatur .baris-tiga .papan:hover{
+    background-color: lightblue;
+}
+.papanCatur .baris-empat .papan:hover{
+    background-color: rgb(2, 236, 186);
+}
+.papanCatur .baris-lima .papan:hover{
+    background-color: #1a376c;
+}
+.papanCatur .baris-enam .papan:hover{
+    background-color: rgb(241, 80, 207);
+}
+.papanCatur .baris-tujuh .papan:hover{
+    background-color: #4F1A6C;
+}
+.papanCatur .baris-delapan .papan:hover{
+    background-color: salmon;
+}
+.papanCatur .papan.hitam{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border: black;
+    
+    
+}
+.papanCatur .papan.putih{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: black;
+
+}
