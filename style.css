@@ -1,0 +1,145 @@
+div.container{
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    width: 600px;
+    background-color: #4F1A6C;
+    /* box-sizing: border-box; */
+    padding: 10px 60px 10px;
+    border-radius: 80px;
+}
+.nama-barang{
+    background-color: #7c29aa;
+    width: 420px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    /* justify-content: center; */
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.nama-barang h1{
+    color: white;
+    padding-top: 10px;
+}
+.nama-barang p{
+    color: white;
+    padding-bottom: 10px;
+}
+.nama-barang{
+    color: white;
+}
+.harga{
+    background-color: #7c29aa;
+    width: 420px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    /* justify-content: center; */
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.harga h2{
+    color: white;
+    padding-top: 10px;
+}
+.harga button{
+    color: white;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(230, 18, 230);
+    font-size: large;
+}
+.papanCatur{
+    background-color: darkgray;
+    border: 10px solid rgb(164,116,73);
+    box-sizing: content-box;
+    width: 400px;
+    margin: 20px, 30px;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+    font-size: 35px;
+   
+}
+
+.papanCatur .baris .papan:nth-child(2n):hover{
+    background-color:#7c29aa; 
+}
+.papanCatur .baris .papan:nth-child(2n+1):hover{
+    background-color: teal;
+}
+
+/* pion baris putih */
+.papan:nth-child(7)::after{
+    content: "\2659";
+}
+.papanCatur .baris .papan:nth-child(7),
+.papanCatur .baris .papan:nth-child(8){
+    color: rgb(197, 190, 190);
+}
+.baris.satu .papan:nth-child(8)::after,
+.baris.delapan .papan:nth-child(8)::after{
+    content: "\2656";
+}
+.baris.dua .papan:nth-child(8)::after,
+.baris.tujuh .papan:nth-child(8)::after{
+    content: "\2658";
+}
+.baris.tiga .papan:nth-child(8)::after,
+.baris.enam .papan:nth-child(8)::after{
+    content: "\2657";
+}
+.baris.lima .papan:nth-child(8)::after{
+    content: "\2654";
+}
+.baris.empat .papan:nth-child(8)::after{
+    content: "\2655";
+}
+
+/* pion baris hitam */
+.papan:nth-child(2)::after{
+    content: "\265F";
+}
+.papanCatur .baris .papan:nth-child(1),
+.papanCatur .baris .papan:nth-child(2){
+    color: rgb(65, 53, 53);
+}
+.baris.satu .papan:nth-child(1)::after,
+.baris.delapan .papan:nth-child(1)::after{
+    content: "\265C";
+}
+.baris.dua .papan:nth-child(1)::after,
+.baris.tujuh .papan:nth-child(1)::after{
+    content: "\265E";
+}
+.baris.tiga .papan:nth-child(1)::after,
+.baris.enam .papan:nth-child(1)::after{
+    content: "\265D";
+}
+.baris.lima .papan:nth-child(1)::after{
+    content: "\265A";
+}
+.baris.empat .papan:nth-child(1)::after{
+    content: "\265B";
+}
+/* akhir */
+
+.papanCatur .papan.hitam{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border: black;    
+}
+.papanCatur .papan.putih{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border: black;
+
+}
